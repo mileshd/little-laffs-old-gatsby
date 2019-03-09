@@ -1,0 +1,25 @@
+@import url('https://fonts.googleapis.com/css?family=Lora|Cinzel');
+
+body {
+  font-family: 'Lora', serif;
+}
+
+.navbar-fixed-top {
+  border-width: 0;
+}
+.navbar-default {
+  background: white;
+  color: black;
+}
+
+.home,
+.comics,
+.about {
+  margin-top: 50px;
+}
+
+.home img {
+  width: 100%;
+  max-width: 600px;
+  margin: 0 auto;
+}
