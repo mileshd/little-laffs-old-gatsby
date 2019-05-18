@@ -1,0 +1,21 @@
+.comics a {
+  text-decoration: none;
+}
+.comics .comic {
+  display: inline-block;
+  margin-top: 25px;
+  margin-right: 25px;
+  border-radius: 10px;
+  padding: 25px;
+  background: #aaa;
+  /*height: 150px;*/
+  max-width: 200px;
+  color: white;
+  text-align: center;
+  /*text-decoration: none;*/
+}
+
+.comics .comic:hover {
+  background: #666;
+  /*text-decoration: none;*/
+}
