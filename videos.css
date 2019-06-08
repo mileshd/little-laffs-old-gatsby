@@ -1,11 +1,16 @@
-.comics a {
+.comics {
+  margin-top: 25px;
+  margin-bottom: 50px;
+}
+
+.videos a {
   text-decoration: none;
 }
-.comics a:hover {
+.videos a:hover {
   text-decoration: none;
 }
 
-.comics .comic {
+.videos .video {
   display: inline-block;
   /*margin-top: 25px;*/
   margin-right: 25px;
@@ -17,6 +22,6 @@
   text-align: center;
 }
 
-.comics .comic:hover {
+.videos .video:hover {
   background: #666;
 }

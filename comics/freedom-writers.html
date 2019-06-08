@@ -4,7 +4,7 @@
 <head>
   <meta charset="utf-8">
   <meta http-equiv="x-ua-compatible" content="ie=edge">
-  <title>Little Laffs Videos</title>
+  <title>Freedom Writers</title>
   <meta
     name="description"
     content="They're comics, by Little Laffs"
@@ -14,8 +14,14 @@
     content="width=device-width, initial-scale=1, shrink-to-fit=no"
   >
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+  <link rel="stylesheet" href="/styles.css" />
   <link rel="stylesheet" href="./styles.css" />
-  <link rel="stylesheet" href="./videos.css" />
+  <style>
+    .comic__image img {
+      width: 100%;
+      max-width: 636px;
+    }
+  </style>
   </head>
 
 <body>
@@ -46,18 +52,19 @@
     </div><!--/.container -->
   </nav>
 
-
-  <div class="videos container">
-    <a href="/videos/vacation.html">
-      <div class="video">
-        <div class="video__title">
-          Vacation
-        </div>
-        <div class="video__date">
-          12/12/19
-        </div>
-      </div>
-    </a>
+  <div class="comics container">
+    <div class="comic__title">
+      <h2>Freedom Writers</h2>
+      <a href="/comics/hipster-harvey.html" class="btn btn-default">
+        < Hipster Harvey 
+      </a>
+    </div>
+    <div class="comic__image">
+      <img src="./freedom-writers.gif" />
+    </div>
+    <div class="comic__description">
+      Little Laffs, the College Years, really got kicked off in BMGT-364. 
+    </div>
   </div>
 
 <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
