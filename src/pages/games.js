@@ -1,19 +1,20 @@
 import React from "react"
 
-import comics from '../../data/comics.json'
 import Header from '../components/header'
 
-export default class Index extends React.Component {
+export default class Games extends React.Component {
   componentDidMount() {
-    document.title = 'Little Laffs'
+    document.title = 'Games'
   }
 
   render() {
     return (
-      <div className="home">
+      <div className="games">
         <Header/>
         <div className="container">
-          Welcome to Little Laffs!
+          <div className="game">
+            <a href="https://equals.rocks">Equals</a>
+          </div>
         </div>
       </div>
     )
