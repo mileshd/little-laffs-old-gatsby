@@ -19,3 +19,62 @@ body {
 .comics {
   margin-top: 50px;
 }
+
+/* Comics */
+.comics a {
+  text-decoration: none;
+}
+.comics a:hover {
+  text-decoration: none;
+}
+
+.comics .comic-list-item {
+  display: inline-block;
+  margin-right: 25px;
+  margin-bottom: 25px;
+  border-radius: 10px;
+  padding: 25px;
+  background: #aaa;
+  color: white;
+  text-align: center;
+  cursor: pointer;
+}
+
+.comics .comic-list-item:hover {
+  background: #666;
+}
+
+.comic .comic__body {
+  margin-top: 60px;
+}
+
+.comic .comic__header {
+}
+.comic .comic__title {
+  display: inline-block;
+  font-size: 1.5em;
+  margin-right: 15px;
+}
+.comic .comic__navigation {
+  display: inline-block;
+}
+.comic .comic__navigation .btn {
+  margin-right: 10px;
+}
+.comic .comic__image {
+  width: 100%;
+}
+.comic .comic__description {
+  font-size: 1.25em;
+  margin-bottom: 50px;
+}
+
+/*.comics .comic .comic__title {*/
+  /*display: inline-block;*/
+  /*font-size: 24px;*/
+  /*margin-right: 15px;*/
+/*}*/
+/*.comics .comic .comic__navigation {*/
+  /*display: inline-block;*/
+  /*margin-right: 18px;*/
+/*}*/

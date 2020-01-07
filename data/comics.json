@@ -1,6 +1,58 @@
 [
   {
-    "id": 1,
-    "name": "For the Love of the Game"
+    "name": "Bud Muffins",
+    "date": "03/26/2013",
+    "image": "bud-muffins.gif",
+    "maxWidth": 787,
+    "description": "Description"
+  },
+  {
+    "name": "Hipster Harvey",
+    "date": "03/26/2013",
+    "image": "hipster-harvey.gif",
+    "maxWidth": 808,
+    "description": "It's still crazy to me to see how childish my writing looks as a 20 year old man. Thank god for word processing. I ate alone quite a bit, small talk can ruin a perfectly good meal."
+  },
+  {
+    "name": "Extra Credit",
+    "date": "06/26/2013",
+    "image": "extra-credit.gif",
+    "maxWidth": 781,
+    "description": "It's still crazy to me to see how childish my writing looks as a 20 year old man. Thank god for word processing. I ate alone quite a bit, small talk can ruin a perfectly good meal."
+  },
+  {
+    "name": "Dinner for Two",
+    "date": "06/13/2013",
+    "image": "dinner-for-two.gif",
+    "maxWidth": 753,
+    "description": "Description"
+  },
+  {
+    "name": "For the Love of the Game",
+    "date": "06/03/2013",
+    "image": "for-the-love-of-the-game.gif",
+    "maxWidth": 829,
+    "description": "Description"
+  },
+  {
+    "name": "Path to Express",
+    "date": "04/07/2013",
+    "image": "path-to-express.gif",
+    "maxWidth": 627,
+    "description": "Description"
+  },
+  {
+    "name": "Soft Drinks",
+    "date": "03/14/2013",
+    "image": "soft-drinks.gif",
+    "maxWidth": 773,
+    "description": "Description"
+  },
+  {
+    "name": "Freedom Writers",
+    "date": "02/14/2013",
+    "image": "freedom-writers.gif",
+    "maxWidth": 636,
+    "description": "Description"
   }
 ]
