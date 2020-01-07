@@ -17,7 +17,14 @@ body {
 .videos,
 .about,
 .comics {
-  margin-top: 50px;
+  margin-top: 60px;
+}
+
+.home {
+}
+.home-section {
+  font-size: 1.5em;
+  margin-bottom: 15px;
 }
 
 /* Comics */
@@ -59,7 +66,7 @@ body {
 .comic .comic__navigation .btn {
   margin-right: 10px;
 }
-.comic .comic__image {
+.comic .comic__image img {
   width: 100%;
 }
 .comic .comic__description {
@@ -103,4 +110,58 @@ body {
   font-size: 1.25em;
   margin-top: 25px;
   margin-bottom: 50px;
+}
+
+.game {
+  margin: 10px;
+  color: black;
+  text-decoration: none;
+  display: block;
+  padding: 25px;
+  min-height: 250px;
+}
+
+.game:hover, .game:active, .game:focus {
+  background: gray;
+  text-decoration: none;
+  color: black;
+}
+.game.equals {
+  background: #9acbe7;
+}
+.game.rally-omelet {
+  background: #f9dcad;
+}
+
+.game-title {
+  font-size: 2em;
+}
+.game-description {
+  font-size: 1.25em;
+}
+.game .game-operator {
+  display: inline-block;
+  margin-top: 10px;
+}
+/*.game-operator.add {*/
+  /*font-size: 5em;*/
+/*}*/
+/*.game-operator.subtract {*/
+  /*font-size: 5em;*/
+/*}*/
+/*.game-operator.multiply {*/
+  /*font-size: 5em;*/
+/*}*/
+/*.game-operator.divide {*/
+  /*font-size: 1.5em;*/
+/*}*/
+
+.about {
+}
+.about-title {
+  font-size: 2em;
+}
+.about-section {
+  font-size: 1.25em;
+  margin-top: 15px;
 }
