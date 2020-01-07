@@ -2,10 +2,7 @@
   {
     "name": "Vacation",
     "date": "04/14/2014",
-    "width": 560,
-    "height": 315,
     "src": "https://www.youtube-nocookie.com/embed/ioXEWXPocAY",
-    "allow": "accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture",
     "description": "Description"
   }
 ]

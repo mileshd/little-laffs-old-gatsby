@@ -58,6 +58,7 @@ export default class Comics extends React.Component {
               </div>
               <div className="comic__image">
                 <img
+                  alt={activeComic.name}
                   style={{ maxWidth: activeComic.maxWidth + 'px' }}
                   src={require(`../../comics/${activeComic.image}`)}
                 />

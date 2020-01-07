@@ -39,7 +39,6 @@ body {
   text-align: center;
   cursor: pointer;
 }
-
 .comics .comic-list-item:hover {
   background: #666;
 }
@@ -47,7 +46,6 @@ body {
 .comic .comic__body {
   margin-top: 60px;
 }
-
 .comic .comic__header {
 }
 .comic .comic__title {
@@ -69,12 +67,40 @@ body {
   margin-bottom: 50px;
 }
 
-/*.comics .comic .comic__title {*/
-  /*display: inline-block;*/
-  /*font-size: 24px;*/
-  /*margin-right: 15px;*/
-/*}*/
-/*.comics .comic .comic__navigation {*/
-  /*display: inline-block;*/
-  /*margin-right: 18px;*/
-/*}*/
+/* Video */
+
+.videos .video-list-item {
+  display: inline-block;
+  margin-right: 25px;
+  margin-bottom: 25px;
+  border-radius: 10px;
+  padding: 25px;
+  background: #aaa;
+  color: white;
+  text-align: center;
+  cursor: pointer;
+}
+.videos .video-list-item:hover {
+  background: #666;
+}
+
+.video .video__body {
+  margin-top: 60px;
+}
+.video .video__title {
+  display: inline-block;
+  font-size: 1.5em;
+  margin-right: 15px;
+  margin-bottom: 25px;
+}
+.video .video__navigation {
+  display: inline-block;
+}
+.video .video__navigation .btn {
+  margin-right: 10px;
+}
+.video .video__description {
+  font-size: 1.25em;
+  margin-top: 25px;
+  margin-bottom: 50px;
+}

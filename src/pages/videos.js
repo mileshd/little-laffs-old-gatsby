@@ -56,13 +56,19 @@ export default class Videos extends React.Component {
               <div className="video__title">
                 {activeVideo.name}
               </div>
-              <div className="video__image">
-                <img
-                  style={{ maxWidth: activeVideo.maxWidth + 'px' }}
-                  src={require(`../../videos/${activeVideo.image}`)}
-                />
+              <div className="video__player">
+                <iframe
+                  title={activeVideo.name}
+                  width="560"
+                  height="315"
+                  src={activeVideo.src}
+                  frameBorder="0"
+                  allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                  allowFullScreen
+                >
+                  </iframe>
               </div>
-              <div className="comic__description">
+              <div className="video__description">
                 {activeVideo.description}
               </div>
             </div>
@@ -92,7 +98,7 @@ export default class Videos extends React.Component {
                     {video.name}
                   </div>
                   <div className="video__date">
-                    {comic.date}
+                    {video.date}
                   </div>
                 </div>
               )
