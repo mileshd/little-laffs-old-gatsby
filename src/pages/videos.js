@@ -77,12 +77,44 @@ export default class Videos extends React.Component {
       )
     }
 
+    const storyVideos = videos.filter((video) => {
+      return video.type === 'Story'
+    })
+    const musicVideos = videos.filter((video) => {
+      return video.type === 'Music'
+    })
+
     return (
       <div className="videos">
         <Header/>
         <div className="container">
+          <div className="videos__collection">Stories</div>
           <div className="videos-list">
-            {videos.map((video, index) => {
+            {storyVideos.map((video, index) => {
+              return (
+                <div
+                  key={index}
+                  className="video-list-item"
+                  onClick={() => {
+                    this.setState({
+                      ...this.state,
+                      index 
+                    })
+                  }}
+                >
+                  <div className="video__title">
+                    {video.name}
+                  </div>
+                  <div className="video__date">
+                    {video.date}
+                  </div>
+                </div>
+              )
+            })}
+          </div>
+          <div className="videos__collection">Music</div>
+          <div className="videos-list">
+            {musicVideos.map((video, index) => {
               return (
                 <div
                   key={index}

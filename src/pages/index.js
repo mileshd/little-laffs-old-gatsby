@@ -27,29 +27,33 @@ export default class Index extends React.Component {
           <div className="home-section">
             Welcome to Little Laffs!
           </div>
-          <div className="home-section">
-            Home to good vibes. Only good vibes.
-          </div>
-          <div className="row">
-            <div className="col-xs-12 col-xs-4">
-              <div className="latest-comics">
-                <div className="latest-comics__title">
-                  Latest Comics:
-                </div>
-                <div className="latest-comics__body">
-                {truncatedComics.map((comic) => {
-                  return (
-                    <div className="latest-comics__comic">
-                      {comic.name}
-                    </div>
-                  )
-                })}
-                </div>
-              </div>
-            </div>
-          </div>
+          <p>
+            Home to insightful comics, ground-breaking music, cutting edge videos, amazing games, and the best vibes.
+          </p>
+          <p>
+             I hope you enjoy your stay.
+          </p>
         </div>
       </div>
     )
   }
 }
+
+          //<div className="row">
+            //<div className="col-xs-12 col-xs-4">
+              //<div className="latest-comics">
+                //<div className="latest-comics__title">
+                  //Latest Comics:
+                //</div>
+                //<div className="latest-comics__body">
+                //{truncatedComics.map((comic) => {
+                  //return (
+                    //<div className="latest-comics__comic">
+                      //{comic.name}
+                    //</div>
+                  //)
+                //})}
+                //</div>
+              //</div>
+            //</div>
+          //</div>
