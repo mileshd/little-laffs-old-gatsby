@@ -53,9 +53,12 @@ export default class Comics extends React.Component {
     // Sort Comics by latest to earliest in collection
     // I guess I can sort an object as well as a list, go figure
     const sortedComics = comics.sort((a, b) => {
-      if (a.date < b.date) {
+      const date1 = new Date(a.date)
+      const date2 = new Date(b.date)
+
+      if (date1 < date2) {
         return 1
-      } else if (a.date > b.date) {
+      } else if (date1 > date2) {
         return -1
       } else {
         return 0
@@ -132,7 +135,6 @@ export default class Comics extends React.Component {
               Pro Tip: Use the left and right arrow keys for quicker navigation.
             </b>
           </div>
-          <div className="comics__collection">College Years</div>
           <div className="comics-list">
             {sortedComics.map((comic, index) => {
               return (

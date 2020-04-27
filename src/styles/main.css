@@ -82,6 +82,7 @@ p {
 }
 .comic .comic__navigation {
   display: inline-block;
+  margin-bottom: 15px;
 }
 .comic .comic__navigation .btn {
   margin-right: 10px;
@@ -98,6 +99,9 @@ p {
   margin-top: 25px;
   margin-bottom: 50px;
   line-height: 2;
+}
+.comics .comics-list {
+  margin-top: 25px;
 }
 
 /* Video */

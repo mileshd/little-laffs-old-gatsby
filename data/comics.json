@@ -69,7 +69,7 @@
     "date": "06/02/2013",
     "image": "different-batch-same-recipe.gif",
     "maxWidth": 636,
-    "description": "People say those who bully are hiding their own pain and insecurities. Well, most murderers don't have well adjusted lives either. Nothing excuses that behvior. Fuck bullies, and all those who support and enable them."
+    "description": "People say those who bully are hiding their own pain and insecurities. Well, most murderers don't have well adjusted lives either. Nothing excuses that behvior."
   },
   {
     "name": "Humpty: True England Stories",
@@ -78,5 +78,21 @@
     "image": "humpty.gif",
     "maxWidth": 636,
     "description": "The chicken is saying 'pain', but my n's are hit or miss some days."
+  },
+  {
+    "name": "Before the Fall",
+    "group": "Life",
+    "date": "09/28/2018",
+    "image": "before-the-fall.jpg",
+    "maxWidth": 636,
+    "description": "Hang on for as long as you can. It's a long way down and there's no way back."
+  },
+  {
+    "name": "Harvest Time",
+    "group": "Life",
+    "date": "04/27/2020",
+    "image": "harvest-time.jpg",
+    "maxWidth": 636,
+    "description": "Halloween is a very different experience for pumpkins than humans. Maybe it's better they don't know what's coming. How could they face it."
   }
 ]
